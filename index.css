@@ -1,0 +1,47 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+body {
+}
+article {
+	/* 
+		Since I want a 100% width and still need my contents 
+		to be centerd, this does the trick
+	*/
+	text-align: center;
+}
+ article > section {
+ }
+ #pic {
+	text-align: center;
+ 	display: block;
+ 	float: none;
+ 	clear: both;
+ }
+ #inf {
+	text-align: center;
+ 	display: none;
+ 	float: none;
+ 	clear: both;
+ }
+ #rev {
+	text-align: center;
+ 	display: none;
+ 	float: none;
+ 	clear: both;
+ }
+ nav {
+ 	font: 1em;
+ }
+ nav > a {
+ 	float: left;
+ 	clear: both;
+ }
+ #prod_nav {
+ 	padding: 0.50em;
+ }
+ #prod_details {
+ 	text-align: center;
+ }
